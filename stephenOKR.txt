@@ -1,0 +1,2 @@
+Implement basic level design - NLT sunday @ 1600
+Implement layers with player2 - NLT monday @ 1800
