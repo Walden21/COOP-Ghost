@@ -1,0 +1,5 @@
+Implement basic character movement - Friday, March 9
+
+Temporary character models - Monday, March 12
+Temporary 'house' model - Monday, March 12
+Basic object interaction (temporary, click to destroy/win) - Tuesday, March 13
