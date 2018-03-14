@@ -19,6 +19,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4332804162541590}
+  - component: {fileID: 114976853330825472}
   m_Layer: 9
   m_Name: GhostPlayer
   m_TagString: Untagged
@@ -71,7 +72,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1133869125311916}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.004998207, y: 0.075767994, z: -0.018533707}
+  m_LocalPosition: {x: 0.5, y: 1.9213057, z: 7.9548435}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4988947022536278}
@@ -216,6 +217,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.1
+--- !u!114 &114976853330825472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1133869125311916}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SceneId:
+    m_Value: 0
+  m_AssetId:
+    i0: 216
+    i1: 55
+    i2: 51
+    i3: 178
+    i4: 81
+    i5: 94
+    i6: 68
+    i7: 84
+    i8: 57
+    i9: 115
+    i10: 243
+    i11: 154
+    i12: 31
+    i13: 4
+    i14: 117
+    i15: 33
+  m_ServerOnly: 0
+  m_LocalPlayerAuthority: 1
 --- !u!124 &124413928766577828
 Behaviour:
   m_ObjectHideFlags: 1
