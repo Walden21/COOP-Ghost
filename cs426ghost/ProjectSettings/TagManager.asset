@@ -6,6 +6,7 @@ TagManager:
   tags:
   - humanCamera
   - ghostCamera
+  - human
   layers:
   - Default
   - TransparentFX

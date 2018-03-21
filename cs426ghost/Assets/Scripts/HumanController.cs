@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 
 public class HumanController : MonoBehaviour
 {
-	//Rigidbody rb;
+	//public Rigidbody rb;
 	public float speed = .1f;
 
 	// Use this for initialization
@@ -13,9 +13,9 @@ public class HumanController : MonoBehaviour
 		//rb = GetComponent<Rigidbody> ();
 	}
 
-	public void move(float hor, float vert, float camH, float camV){
-		transform.Translate(hor * speed, 0.0f, vert * speed);
-		transform.Rotate(0.0f, camH, 0.0f);
+	public void Move(float hor, float vert, float camH){
+		this.transform.Translate(hor * speed, 0.0f, vert * speed);
+		this.transform.Rotate(0.0f, camH, 0.0f);
 	}
 
 	// Update is called once per frame

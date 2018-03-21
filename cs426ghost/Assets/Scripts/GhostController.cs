@@ -3,20 +3,26 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 
-public class GhostController : MonoBehaviour
+public class GhostController : NetworkBehaviour
 {
-    //Rigidbody rb;
+    Rigidbody rb;
     public float speed = .1f;
 
     // Use this for initialization
     void Start()
     {
-        //rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
     }
-		
-	public void move(float hor, float vert, float camH, float camV){
-		transform.Translate(hor * speed, 0.0f, vert * speed);
-		transform.Rotate(0.0f, camH, 0.0f);
+
+	[Command]
+	public void CmdMove(float hor, float vert, float camH){
+		rb.transform.Translate(hor * speed, 0.0f, vert * speed);
+		rb.transform.Rotate(0.0f, camH, 0.0f);
+	}
+
+	public void Move(float hor, float vert, float camH){
+		rb.transform.Translate(hor * speed, 0.0f, vert * speed);
+		rb.transform.Rotate(0.0f, camH, 0.0f);
 	}
 
     // Update is called once per frame
