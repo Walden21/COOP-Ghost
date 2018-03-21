@@ -1,5 +1,23 @@
-Implement basic character movement - Friday, March 9 (est, 2 hours)
+March 19 (sunday)
+-Camera controller
 
-Temporary character models - Monday, March 12 (est, 2 hours)
-Temporary 'house' model - Monday, March 12 (est, 1 hour)
-Basic object interaction (temporary, click to destroy/win) - Tuesday, March 13 (est, 1 hour)
+March 21 (tuesday)
+-basic dog AI
+
+March 22 (wednesday)
+-furniture models
+
+March 25 (friday)
+-object interaction
+
+
+
+Completed:
+Basic character movement
+Basic networking
+Controller support
+
+
+No longer assigned:
+Temporary character models
+Temporary 'house' model
