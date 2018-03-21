@@ -2499,7 +2499,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 8084d0f75a21c1d408a0ac7768d9c4c9, type: 3}
       propertyPath: m_Name
-      value: https://poly.google.com/view/dLowpf-V5R-
+      value: Samurai
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8084d0f75a21c1d408a0ac7768d9c4c9, type: 3}
@@ -2529,6 +2529,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ghost1: {fileID: 0}
   ghost2: {fileID: 0}
+  rend: {fileID: 0}
 --- !u!114 &862836332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2537,11 +2538,45 @@ MonoBehaviour:
   m_GameObject: {fileID: 862836330}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5e8a941187273aa4da85b4df01daee04, type: 3}
+  m_Script: {fileID: 11500000, guid: ffae0d0763e1bc14d8f08ab8dd23843f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   ghost1: {fileID: 680413432}
-  ghost2: {fileID: 977891106}
+  ghost2: {fileID: 1763215879}
+--- !u!23 &862836336
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 862836330}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
 --- !u!1 &865840321
 GameObject:
   m_ObjectHideFlags: 0

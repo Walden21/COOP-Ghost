@@ -290,7 +290,7 @@
     <Compile Include="Assets\Scripts\HumanController.cs" />
     <Compile Include="Assets\Scripts\InputManager.cs" />
     <Compile Include="Assets\Scripts\Patrol.cs" />
-    <Compile Include="Assets\Scripts\SamuraiArmorGlow.cs" />
+    <Compile Include="Assets\Scripts\SamuraiGlow.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Materials\NewSurfaceShader.shader" />
