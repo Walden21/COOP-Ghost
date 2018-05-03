@@ -1,2 +1,48 @@
 Implement basic level design - NLT sunday @ 1600
 Implement layers with player2 - NLT monday @ 1800
+
+Apr 29
+Furnished the level for public release (added furnature / decorated the house)
+
+Apr 27
+Added a win condition
+Fixed win hitbox
+Added a win level/interface
+
+
+Apr 11
+Attempted to add a script that will allow player to drop the key
+Added a win script
+Fixed mesh locations for the key/human so that mesh locations were located correctly within the level.
+Added a lamp billboard
+
+Apr 9th
+modified keyscript so that key would move to "hand location" on the human
+
+Apr 4th
+Fixed key/door interaction within scripts
+
+Apr 3rd
+Added key
+
+Mar 27th
+Added models from artists
+
+Mar 21st
+Added Samurai/Samurai script
+
+Mar 19th
+Finished Initial Level Design.
+
+Mar 17th
+Added Door Prefab
+
+Mar 12th
+Fixed layer issues for Initial Formal Elements
+
+Mar 8th
+Added two walls to showcase formal element
+
+Mar 2nd
+Added Initial House floor
+Adjusted light slightly
