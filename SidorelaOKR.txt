@@ -1,3 +1,12 @@
-network protype. (1 hr- 3/12)
-create an object to intract with over network to test (1hr- 3/13 7pm)
-help ccreate win/lose component (2hrs - 3/14 12pm)
+network protype. (1 hr- 3/12)- completed
+create an object to intract with over network to test (1hr- 3/13 7pm)- completed
+help ccreate win/lose component (2hrs - 3/14 12pm)- completed
+
+March 20 (Monday, 3 hr)- completed(borrowed unity patrol script )
+Finish Waypoint AI 
+
+March 21 (Tuesday, 2hr)- in progress
+add scream for AI ghost to scare player when the player is in range.
+
+March 22 (wednesday, 1 hr)
+successfully execute AI ghost interaction over networking
