@@ -4,7 +4,7 @@ This project was made for cs426 (Video Game Design and Implementation) at UIC.
 
 ## Demo Video
 
-https://www.youtube.com/watch?v=zHCpwiEtN_k&t=29s
+https://www.youtube.com/watch?v=FfNiRxhyKFw
 
 ## Developers
 
